@@ -21,7 +21,7 @@ function rot13(str) {
           {
             decoded += letters[j - 26 + 13];
           }
-        }
+        } 
       }
     }
     else // Add to decoded if not alphanumeric
